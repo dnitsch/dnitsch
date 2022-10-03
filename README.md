@@ -1,4 +1,4 @@
-# Dusan Nitschneider 
+# Dusan Nitschneider
 
 Wow so empty...
 
@@ -6,8 +6,14 @@ TODO: ...
 
 - ⚡ Fun fact: Don't know what to put in here
 
-<!--
-**dnitsch/dnitsch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[1]: <nitschneiderd@gmail.com> "dnisch"
+
+
+📫 How to reach me:
+- email <nitschneiderd@gmail.com> 
+
+
+<!-- **dnitsch/dnitsch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -18,5 +24,4 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-
--->
+ -->
