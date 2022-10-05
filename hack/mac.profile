@@ -147,7 +147,7 @@ export MAVEN_TOKEN_TYPE="Private-Token"
 export MAVEN_TOKEN_VALUE=$GITLAB_API_TOKEN
 
 # complete -C /terraform/vault vault
-export GITLAB_RUNNER_TOKEN=GR1348941vxFZy9JtfKuF76Cxc9sL
+export GITLAB_RUNNER_TOKEN=replace_me
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
@@ -158,17 +158,17 @@ export DOCKER_HOST='unix://$HOME/.local/share/containers/podman/machine/podman-m
 
 # Aliases
 # alias aws="docker run --rm -it --env-file ~/git/iag/group-idam/local.env -e AWS_PAGER="" -v ~/.aws:/root/.aws -v ~/.kube:/root/.kube -v $(pwd):/data amazon/aws-cli"
-alias aws-cli="docker run --rm -it --entrypoint /usr/bin/env --env-file ~/git/iag/group-idam/local.env -v ~/.aws:/root/.aws -v ~/.kube:/root/.kube -v $(pwd):/data amazon/aws-cli -- sh"
-# alias terraform="docker run --rm -v $PWD:/out -v ~/.aws:/root/.aws hashicorp/terraform:1.0.9"
-alias terraform-cli="docker run -it --rm --entrypoint /usr/bin/env -v $PWD:/out -v ~/.aws:/root/.aws hashicorp/terraform:1.2.9 -- sh"
-alias terraform12-cli="docker run -it --rm --entrypoint /usr/bin/env -v $(pwd):/out -v ~/.aws:/root/.aws hashicorp/terraform:0.12.28 -- sh"
-alias k="kubectl"
+alias aws-cli="docker run --rm -it --entrypoint /usr/bin/env -v ~/.aws:/root/.aws -v ~/.kube:/root/.kube -v $(pwd):/data amazon/aws-cli -- sh"
 alias docker="podman"
 alias akamai="docker run -it -v $HOME/.edgerc:/root/.edgerc:ro akamai/shell"
 alias ccdns="sudo dscacheutil -flushcache &&  sudo killall -HUP mDNSResponder"
 ### TF aliases
+# alias terraform="docker run --rm -v $PWD:/out -v ~/.aws:/root/.aws hashicorp/terraform:1.0.9"
+alias terraform-cli="docker run -it --rm --entrypoint /usr/bin/env -v $PWD:/out -v ~/.aws:/root/.aws hashicorp/terraform:1.2.9 -- sh"
+alias terraform12-cli="docker run -it --rm --entrypoint /usr/bin/env -v $(pwd):/out -v ~/.aws:/root/.aws hashicorp/terraform:0.12.28 -- sh"
 
 # K8s aliases
+alias k="kubectl"
 alias k1="kubectl"
 alias k1d="kubectl describe"
 

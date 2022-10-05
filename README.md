@@ -1,27 +1,27 @@
-# Dusan Nitschneider
+# Hi there, I'm Dusan 👋
 
-Wow so empty...
+Cloud developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
 
-TODO: ...
+Love developing any tool to make my life easier!
 
-- ⚡ Fun fact: Don't know what to put in here
+### Currently working on
 
-[1]: <nitschneiderd@gmail.com> "dnisch"
+- [Config Manager](https://github.com/dnitsch/configmanager) aims to provide a simplified interface for retrieving configuration without compromising on security.
 
+- [Strategy Rest Seeder Controller](https://github.com/dnitsch/strategyrestseeder-controller) acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
 
-📫 How to reach me:
-- email <nitschneiderd@gmail.com> 
+> any help always welcomed and appreciated!
 
+### Feel free to reach out
 
-<!-- **dnitsch/dnitsch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/discord.svg" /> `dnitschneider#4660`
 
-Here are some ideas to get you started:
+[<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />][linkedin]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+<!-- [1]: <nitschneiderd@gmail.com> "dnisch" -->
+<!-- - [email](<nitschneiderd@gmail.com>) -->
+
+<!-- [![](https://www.linkedin.com/in/dusannitschneider/)]
  -->
+[twitter]: https://twitter.com/dnitsch
+[linkedin]: https://www.linkedin.com/in/dusannitschneider/
