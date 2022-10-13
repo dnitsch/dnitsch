@@ -8,7 +8,7 @@ Love developing any tool to make my life easier!
 
 - [Config Manager](https://github.com/dnitsch/configmanager) aims to provide a simplified interface for retrieving configuration without compromising on security.
 
-- [Strategy Rest Seeder Controller](https://github.com/dnitsch/reststrategy) acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
+- [Strategy Rest Seeder](https://github.com/dnitsch/reststrategy) acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
 
 > any help always welcomed and appreciated!
 
