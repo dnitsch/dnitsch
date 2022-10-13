@@ -1,8 +1,8 @@
-# Hi there, I'm Dusan 👋
+# Ahoy there, 👋 
 
 Cloud developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
 
-Love developing any tool to make my life easier!
+Love Terraform'ing or developing any tool to make my life easier!
 
 ### Currently working on
 
@@ -14,7 +14,7 @@ Love developing any tool to make my life easier!
 
 ### Feel free to reach out
 
-<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/discord.svg" /> `dnitschneider#4660`
+[<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/discord.svg" /> `dnitschneider#4660`]
 
 [<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />][linkedin]
 
@@ -23,5 +23,5 @@ Love developing any tool to make my life easier!
 
 <!-- [![](https://www.linkedin.com/in/dusannitschneider/)]
  -->
-[twitter]: https://twitter.com/dnitschnei1
+[twitter]: https://twitter.com/d_nitschneider
 [linkedin]: https://www.linkedin.com/in/dusannitschneider/
