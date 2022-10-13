@@ -23,5 +23,5 @@ Love developing any tool to make my life easier!
 
 <!-- [![](https://www.linkedin.com/in/dusannitschneider/)]
  -->
-[twitter]: https://twitter.com/dnitsch
+[twitter]: https://twitter.com/dnitschnei1
 [linkedin]: https://www.linkedin.com/in/dusannitschneider/
