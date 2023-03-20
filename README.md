@@ -2,7 +2,7 @@
 
 Cloud developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
 
-Love Terraform'ing or developing any tool to make my life easier!
+Love developing any tool to make my life easier!
 
 ### Currently working on
 
