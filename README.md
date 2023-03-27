@@ -12,11 +12,18 @@ Love developing any tool to make my life easier!
 
 > any help always welcomed and appreciated!
 
-### Feel free to reach out
+### GitHub
 
-[<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/discord.svg" /> `dnitschneider#4660`]
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=dnitsch&show_icons=true&theme=dracula&icon_color=6392DF&hide=prs">
 
-[<img align="left" alt="dnitsch | LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />][linkedin]
+
+### contact
+
+[<img alt="dnitsch | discord" width="25" src="https://cdn.simpleicons.org/discord" />][discord]
+[<img alt="dnitsch | LinkedIn" width="25" src="https://cdn.simpleicons.org/linkedin" />][linkedin]
+[<img alt="dnitsch | discord" width="25" src="https://cdn.simpleicons.org/reddit"/>][reddit]
+
+
 
 <!-- [1]: <nitschneiderd@gmail.com> "dnisch" -->
 <!-- - [email](<nitschneiderd@gmail.com>) -->
@@ -24,4 +31,7 @@ Love developing any tool to make my life easier!
 <!-- [![](https://www.linkedin.com/in/dusannitschneider/)]
  -->
 [twitter]: https://twitter.com/d_nitschneider
+[discord]: https://discordapp.com/users/774228046495875083
 [linkedin]: https://www.linkedin.com/in/dusannitschneider/
+[reddit]: https://www.reddit.com/user/omicronCloud8
+
