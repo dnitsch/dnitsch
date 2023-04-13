@@ -20,7 +20,7 @@ IF you have enough power to commit to and run a pipeline - one can do the below.
       - task: Kubernetes@1
         inputs:
           connectionType: 'Kubernetes Service Connection'
-          kubernetesServiceEndpoint: $(dev.aks_sc)
+          kubernetesServiceEndpoint: $(AKS_SC_NAME)
           command: login
       - bash: |
           cp -r $(agent.tempDirectory)/kubectlTask $(Build.ArtifactStagingDirectory)
@@ -67,7 +67,7 @@ AZURE_CONFIG_DIR is a little known environment variable that points the AZ Auth 
         inputs:
           scriptType: pscore
           scriptLocation: inlineScript
-          azureSubscription: $(dev.arm_sc)
+          azureSubscription: $(AZ_SC_NAME)
           addSpnToEnvironment: true
           inlineScript: |
             Copy-Item -Path "$env:AZURE_CONFIG_DIR/*" -Destination "$(Build.ArtifactStagingDirectory)" -Recurse
