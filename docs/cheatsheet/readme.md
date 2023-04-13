@@ -1,10 +1,12 @@
 # CHEAT SHEET
 
-For those rare occasions one might need to leak credentials from TFS to perform their jobs...
-
 > A few examples below
 
-## AKS from TFS
+## TFS nightmares
+
+For those rare occasions one might need to leak credentials from TFS to perform their jobs...
+
+### AKS from TFS
 
 IF you have enough power to commit to and run a pipeline - one can do the below...
 
@@ -49,7 +51,7 @@ in the container you can type any command to perform any operation that this ser
  KUBECONFIG=/root/.azaks/config kubectl ...command
 ```
 
-## AZ CLI from TFS
+### AZ CLI from TFS
 
 AZURE_CONFIG_DIR is a little known environment variable that points the AZ Auth (CLI/any language SDK) to a folder where the tokens - access/id/refresh tokens are kept and sorted by subscription/tenant...
 
