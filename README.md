@@ -6,9 +6,19 @@ Love developing any tool to make my life easier!
 
 ### Currently working on
 
-- [Config Manager](https://github.com/dnitsch/configmanager) aims to provide a simplified interface for retrieving configuration without compromising on security.
+> with limited time :)
 
-- [Strategy Rest Seeder](https://github.com/dnitsch/reststrategy) acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
+- [Config Manager](https://github.com/dnitsch/configmanager)
+  - aims to provide a simplified interface for retrieving configuration without compromising on security.
+
+- [Strategy Rest Seeder](https://github.com/dnitsch/reststrategy)
+  - acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
+
+- [Taskctl](https://github.com/Ensono/taskctl)
+  - Enhancing a great but unmaintained project from a while ago.
+  
+- [AsyncAPIGenerator](https://github.com/dnitsch/async-api-generator)
+  - AsyncAPI document generator
 
 > any help always welcomed and appreciated!
 
