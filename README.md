@@ -1,33 +1,35 @@
-# Ahoy there, 👋 
+# Dusan Nitschneider (dnitsch)
 
 Cloud developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
 
 Love developing any tool to make my life easier!
 
-### Currently working on
+## Currently working on
 
 > with limited time :)
 
-- [Config Manager](https://github.com/dnitsch/configmanager)
+- [Config Manager](https://github.com/DevLabFoundry/configmanager)
   - aims to provide a simplified interface for retrieving configuration without compromising on security.
 
 - [Strategy Rest Seeder](https://github.com/dnitsch/reststrategy)
-  - acts as idempotent configuration/setup/business logic seeder sync between systems outside of kubernetes.
+  - acts as idempotent configuration/setup/business logic seeder sync between systems that do not have an idempotent way of declaring configuration via a series RESTful strategies.
 
-- [Taskctl](https://github.com/Ensono/taskctl)
+- [Eirctl](https://github.com/Ensono/eirctl)
   - Enhancing a great but unmaintained project from a while ago.
   
-- [AsyncAPIGenerator](https://github.com/dnitsch/async-api-generator)
-  - AsyncAPI document generator
+- [AsyncAPIGenerator](https://github.com/DevLabFoundry/async-api-generator)
+  - AsyncAPI document generator for use in Event Driven Architectures, includes companion [dotnet CLI json schema generator](https://github.com/DevLabFoundry/async-api-generator/tree/main/src/dotnet/Schema.Generator) and an [eventcatalog plugin](https://github.com/DevLabFoundry/async-api-generator/tree/main/src/ts/eventcatalog-plugin-doc-generator-azblob) for use with generated output from various backends.
 
-> any help always welcomed and appreciated!
+> any help always welcomed and appreciated! 
 
-### GitHub
+> Some projects are migrated to the [Dev Lab Foundry](https://github.com/DevLabFoundry)
+
+## GitHub
 
 <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=dnitsch&show_icons=true&theme=dracula&icon_color=6392DF&hide=prs">
 
 
-### contact
+## Contact
 
 [<img alt="dnitsch | discord" width="25" src="https://cdn.simpleicons.org/discord" />][discord]
 [<img alt="dnitsch | LinkedIn" width="25" src="https://cdn.simpleicons.org/linkedin" />][linkedin]

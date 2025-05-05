@@ -97,4 +97,11 @@ inside the container you can run any AZ CLI command that the service account can
 AZURE_CONFIG_DIR=/root/.azaks/azdir az ...command
 ```
 
-## 
+### Terraform and Azure from TFS service account
+
+Running TF locally in a container
+
+```bash
+docker run -it --rm  -v $PWD:/scratchpad -e AZURE_CONFIG_DIR=/scratchpad/.azure --entrypoint="/usr/bin/env" hashicorp/terraform:1.4.5 /bin/sh     
+```
+
