@@ -1,0 +1,25 @@
+languageCode = "en-UK"
+languageName = "English (United Kingdom)"
+languageDirection = "ltr"
+weight = 1
+
+title = "dnitsch"
+copyright = "&copy; 2025"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["samples"]
+  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+
+[params.author]
+  name = "Dusan Nitschneider (dnitsch)"
+  image = "https://avatars.githubusercontent.com/u/6850870?s=400&u=5b2799c9245cc260f9f7692b028f7c7f6df984a8&v=4"
+  headline = "Fullstack Engineer - whatever that means!"
+  bio = ":dog:"
+  links = [
+    { x-twitter = "https://twitter.com/" },
+    { facebook = "https://facebook.com/" },
+    { linkedin = "https://linkedin.com/" },
+    { youtube = "https://youtube.com/" },
+  ]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dnitsch</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on dnitsch</description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>&amp;copy; 2025</copyright>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structuring and Testing Cobra CLI</title>
+      <link>//localhost:1313/thoughts/cobra-cli-testing-setup/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/thoughts/cobra-cli-testing-setup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Examples</title>
+      <link>//localhost:1313/thoughts/content-examples/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/thoughts/content-examples/</guid>
+      <description>It&amp;rsquo;s time to bring everything together with some examples that demonstrate how content should be created and structured.</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>//localhost:1313/experiments/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/experiments/rich-content/</guid>
+      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
+    </item>
+  </channel>
+</rss>
