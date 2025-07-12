@@ -1,0 +1,10 @@
+tasks:
+  hugo:create:
+    command: 
+      - hugo new site blog
+  hugo:init:
+    command: 
+      - | 
+        cd blog
+        hugo mod init blog
+        hugo mod tidy
