@@ -16,4 +16,5 @@
 
 .ignore*
 .local
-blog/public/
+site/public
+site/resources/_gen

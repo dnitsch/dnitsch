@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-description: "Learn how to use Congo and its features."
+title: "Notes"
+description: "Thougts and Notes on various subjects "
 
 cascade:
   showDate: false
