@@ -8,9 +8,8 @@ copyright = "&copy; 2025"
 
 [params]
   dateFormat = "2 January 2006"
-
-  mainSections = ["samples"]
-  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+  mainSections = ["blog","projects"]
+  description = "Just a place to keep things from falling by the wayside"
 
 [params.author]
   name = "Dusan Nitschneider (dnitsch)"
@@ -23,3 +22,4 @@ copyright = "&copy; 2025"
     { linkedin = "https://linkedin.com/" },
     { youtube = "https://youtube.com/" },
   ]
+
