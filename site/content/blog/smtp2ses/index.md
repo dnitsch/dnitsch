@@ -10,8 +10,6 @@ coverCaption: ""
 slug: "smtp2ses"
 tags: ["blog", "privacy", "sample", "gist", "twitter", "youtube", "vimeo"]
 showDateUpdated: true
-type: blog
-section: blog
 
 ---
 

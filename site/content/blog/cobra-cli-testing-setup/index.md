@@ -5,7 +5,6 @@ draft: false
 description: "Learn how to set up a Cobra CLI so that it's testable"
 summary: ""
 tags: ["thoughts"]
-type: thoughts
 ---
 
 # How to Test Cobra CLI
