@@ -8,7 +8,7 @@ summary: "SMTP2SES or how I am too cheap to pay for a hosted email solution"
 coverAlt: "Image outlining the flow"
 coverCaption: ""
 slug: "smtp2ses"
-tags: ["blog", "privacy", "sample", "gist", "twitter", "youtube", "vimeo"]
+tags: ["blog", "smtp-series", "mail-server"]
 showDateUpdated: true
 
 ---

@@ -9,6 +9,6 @@ tags: ["thoughts"]
 
 # How to Test Cobra CLI
 
-this is how...
+
 
 ---

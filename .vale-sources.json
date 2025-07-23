@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "name": "errata-ai/Microsoft"
+    },
+    {
+      "name": "errata-ai/Google"
+    },
+    {
+      "name": "errata-ai/write-good"
+    }
+  ]
+}

@@ -10,6 +10,12 @@ sections:
 Stuff to go in here
 {{< /lead >}}
 
-Some form of an Overview CV to go here
+Some form of an overview to go here 
 
+past projects 
+
+current views on all sorts of things
+
+
+People I am following
 ---
