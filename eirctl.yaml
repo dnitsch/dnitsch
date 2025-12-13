@@ -8,3 +8,9 @@ tasks:
         cd blog
         hugo mod init blog
         hugo mod tidy
+  
+  hugo:run:
+    dir: site
+    command: 
+      - | 
+        hugo server -D
