@@ -16,5 +16,6 @@
 
 .ignore*
 .local
+local
 site/public
 site/resources/_gen
