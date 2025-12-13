@@ -1,16 +1,26 @@
+contexts:
+  hugo:
+    container:
+      name: docker.io/hugomods/hugo:debian-go-git-0.152.2
+      pull_timeout: 0
+      entrypoint: /usr/bin/env
+      container_args:
+        - -p 1313:1313
+
 tasks:
   hugo:create:
-    command: 
+    command:
       - hugo new site blog
   hugo:init:
-    command: 
-      - | 
+    command:
+      - |
         cd blog
         hugo mod init blog
         hugo mod tidy
-  
+
   hugo:run:
     dir: site
-    command: 
-      - | 
-        hugo server -D
+    context: hugo
+    command:
+      - |
+        hugo server -D --bind 0.0.0.0 --ignoreCache --noHTTPCache
