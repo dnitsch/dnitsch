@@ -3,7 +3,7 @@ title: "SMTP2SES"
 date: 2025-07-10
 lastmod: 2025-07-14
 draft: false
-description: "Use SMTP but use AWS SES"
+description: "Continue to use SMTP but use AWS SES SDK"
 summary: "SMTP2SES or how I am too cheap to pay for a hosted email solution"
 coverAlt: "Image outlining the flow"
 coverCaption: ""
@@ -23,6 +23,8 @@ Zoho/Gmail/Self-hosting "¯\_(ツ)_/¯"
 
 ## AWS SES 
 
-## Creating own client 
+## Creating own client
+
+See next part in the series around 
 
 ---

@@ -2,12 +2,12 @@
 title: "UI Mail client"
 date: 2025-07-21
 lastmod: 2025-07-21
-draft: false
-description: ""
+draft: true
+description: "Building own mail client"
 summary: "SMTP2SES or how I am too cheap to pay for a hosted email solution"
 coverAlt: "Image outlining the flow"
 coverCaption: ""
-slug: "smtp2ses"
+slug: "mail-client"
 tags: ["blog", "mail-client", "smtp-series"]
 showDateUpdated: true
 
@@ -15,5 +15,5 @@ showDateUpdated: true
 
 # UI Frameworks
 
-Gio 
+Gio - immediate mode UI 
 

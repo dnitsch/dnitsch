@@ -17,5 +17,5 @@
 .ignore*
 .local
 local
-site/public
-site/resources/_gen
+public
+resources/_gen

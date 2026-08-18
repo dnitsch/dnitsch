@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Orchestration cogs">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa7ff"/>
+      <stop offset="1" stop-color="#9b7dff"/>
+    </linearGradient>
+
+    <!-- Simple "gear" symbol: ring + teeth + hub -->
+    <symbol id="gear" viewBox="-64 -64 128 128">
+      <!-- teeth -->
+      <g>
+        <rect x="-6" y="-62" width="12" height="16" rx="2"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(30)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(60)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(90)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(120)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(150)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(180)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(210)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(240)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(270)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(300)"/>
+        <rect x="-6" y="-62" width="12" height="16" rx="2" transform="rotate(330)"/>
+      </g>
+
+      <!-- body -->
+      <circle r="44" fill="none" stroke="currentColor" stroke-width="12"/>
+      <circle r="18" fill="none" stroke="currentColor" stroke-width="10"/>
+      <circle r="6" fill="currentColor"/>
+    </symbol>
+
+    <!-- Arrow marker for orchestration flow -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="url(#g)"/>
+    </marker>
+
+    <style>
+      :root { color: #2b2f3a; }
+      .stroke { stroke: url(#g); }
+      .thin { stroke-width: 3; }
+      .dash { stroke-dasharray: 7 7; }
+      .node { fill: #ffffff; opacity: 0.9; }
+    </style>
+  </defs>
+
+  <!-- orchestration paths -->
+  <path class="stroke thin dash" fill="none" marker-end="url(#arrow)"
+        d="M70 78 C110 30, 160 30, 195 60"/>
+  <path class="stroke thin dash" fill="none" marker-end="url(#arrow)"
+        d="M208 96 C230 135, 265 145, 290 132"/>
+  <path class="stroke thin" fill="none" marker-end="url(#arrow)"
+        d="M88 128 C125 165, 160 172, 198 140"/>
+
+  <!-- subtle "control plane" nodes -->
+  <circle class="node" cx="70" cy="78" r="8"/>
+  <circle class="node" cx="195" cy="60" r="8"/>
+  <circle class="node" cx="290" cy="132" r="8"/>
+  <circle class="node" cx="88" cy="128" r="8"/>
+  <circle class="node" cx="198" cy="140" r="8"/>
+
+  <!-- gears -->
+  <g class="stroke" style="color:#2b2f3a">
+    <g transform="translate(95 105) scale(1.0) rotate(-12)">
+      <use href="#gear"/>
+    </g>
+
+    <g transform="translate(170 82) scale(0.78) rotate(18)">
+      <use href="#gear"/>
+    </g>
+
+    <g transform="translate(235 128) scale(0.62) rotate(-6)">
+      <use href="#gear"/>
+    </g>
+  </g>
+
+  <!-- tiny spark dots -->
+  <g fill="url(#g)" opacity="0.9">
+    <circle cx="138" cy="42" r="2.2"/>
+    <circle cx="152" cy="36" r="1.8"/>
+    <circle cx="265" cy="155" r="2.0"/>
+    <circle cx="58" cy="150" r="1.7"/>
+  </g>
+</svg>
