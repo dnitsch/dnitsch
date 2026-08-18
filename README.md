@@ -1,28 +1,25 @@
 # Dusan Nitschneider (dnitsch)
 
-Cloud developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
+Cloud native and DevX developer enjoying all things Go and streamlining development/deployment/test processes across projects of all types.
 
 Love developing any tool to make my life easier!
 
-## Currently working on
 
-> with limited time :)
+## Currently working on and using on all curent projects
 
 - [Config Manager](https://github.com/DevLabFoundry/configmanager)
   - aims to provide a simplified interface for retrieving configuration without compromising on security.
 
-- [Strategy Rest Seeder](https://github.com/dnitsch/reststrategy)
-  - acts as idempotent configuration/setup/business logic seeder sync between systems that do not have an idempotent way of declaring configuration via a series RESTful strategies.
-
 - [Eirctl](https://github.com/Ensono/eirctl)
-  - Enhancing a great but unmaintained project from a while ago.
-  
+  - Task runner with containers as first class citizens using composition.
+
+## Side interests 
+
 - [AsyncAPIGenerator](https://github.com/DevLabFoundry/async-api-generator)
   - AsyncAPI document generator for use in Event Driven Architectures, includes companion [dotnet CLI json schema generator](https://github.com/DevLabFoundry/async-api-generator/tree/main/src/dotnet/Schema.Generator) and an [eventcatalog plugin](https://github.com/DevLabFoundry/async-api-generator/tree/main/src/ts/eventcatalog-plugin-doc-generator-azblob) for use with generated output from various backends.
 
-> any help always welcomed and appreciated! 
 
-> Some projects are migrated to the [Dev Lab Foundry](https://github.com/DevLabFoundry)
+> Most of the rojects are hosted on [Dev Lab Foundry](https://github.com/DevLabFoundry), any help is always welcomed and appreciated! 
 
 ## GitHub
 

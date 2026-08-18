@@ -15,3 +15,7 @@
 # vendor/
 
 .ignore*
+.local
+local
+public
+resources/_gen

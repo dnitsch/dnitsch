@@ -1,0 +1,24 @@
+languageCode = "en-UK"
+languageName = "English (United Kingdom)"
+languageDirection = "ltr"
+weight = 1
+
+title = "dnitsch"
+copyright = "&copy; 2025"
+
+[params]
+dateFormat = "2 January 2006"
+mainSections = ["blog", "projects"]
+description = "Just a place to keep things from falling by the wayside"
+
+[params.author]
+name = "Dusan Nitschneider"
+image = "img/author.jpg"
+headline = "Senior Software Engineer"
+links = [
+  # { x-twitter = "https://twitter.com/" },
+  # { facebook = "https://facebook.com/" },
+  { linkedin = "https://www.linkedin.com/in/dusannitschneider" },
+  { github = "https://github.com/dnitsch" },
+  # { youtube = "https://youtube.com/" },
+]

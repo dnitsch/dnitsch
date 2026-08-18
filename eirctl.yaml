@@ -1,0 +1,57 @@
+import:
+  - https://raw.githubusercontent.com/Ensono/eirctl/refs/tags/v0.11.5/shared/terraform/eirctl.yaml
+
+contexts:
+  hugo:
+    container:
+      name: docker.io/hugomods/hugo:debian-go-git-0.152.2
+      pull_timeout: 0
+      entrypoint: /usr/bin/env
+      container_args:
+        - -p 1313:1313
+
+  terraform:
+    container:
+      name: docker.io/hashicorp/terraform:1.14
+      pull_timeout: 0
+      entrypoint: /usr/bin/env
+      shell_args:
+        - -c
+      shell: bash
+      container_args:
+        - -v ~/.aws:/root/.aws
+
+tasks:
+  hugo:create:
+    context: hugo
+    dir: local/testing123
+    command:
+      - |
+        hugo new site {{ .SiteName }}
+        cd {{ .SiteName }}
+        hugo mod init {{ .SiteName }}
+        hugo mod tidy
+
+  hugo:init:
+    context: hugo
+    command:
+      - |
+        cd blog
+        hugo mod init blog
+        hugo mod tidy
+
+  hugo:run:
+    dir: website/site
+    context: hugo
+    # interactive: true
+    command:
+      - |
+        hugo server -D --bind 0.0.0.0 --ignoreCache --noHTTPCache
+
+  hugo:build:
+    dir: website/site
+    description: Builds the deployment bundle
+    context: hugo
+    command:
+      - |
+        hugo build
